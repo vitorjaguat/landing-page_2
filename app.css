@@ -127,11 +127,22 @@ body {
 .square {
     border: 3px solid #3882F6;
     border-radius: 0.7em;
+    background-color: rgb(27, 57, 116);
     width: 150px;
     height: 150px;
     margin: auto;
     margin-bottom: 0.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.icon {
+    color: white;
+    font-size: 48px;
+    width: 120px;
+}
+
 
 .infotext {
     text-align: center;
